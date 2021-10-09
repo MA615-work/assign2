@@ -1,0 +1,22 @@
+---
+title: "presenting"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+```{r}
+
+source("visualization_function.R")
+```
+
+The two ndividual indicators I downloaded are population_aged_60plus_years_male_percent
+and life_expectancy_male. I want to figure out the relationship between the male who are 
+over 60 years old and their life expectancy.
